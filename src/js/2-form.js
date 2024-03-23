@@ -24,7 +24,7 @@ window.addEventListener('load', load);
 
 form.addEventListener('submit', event => {
   event.preventDefault();
-  if (email.value === '' || textarea.value === '') {
+  if (email.value.trim() === '' || textarea.value.trim() === '') {
     alert('Please fill in all fields');
   }
 
