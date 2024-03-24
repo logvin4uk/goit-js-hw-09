@@ -6,5 +6,5 @@ import"./assets/modulepreload-polyfill-3cfb730f.js";import{S as i}from"./assets/
         alt="${a}"
       />
     </a>
-  </li>`).join("");e.insertAdjacentHTML("beforeend",n);new i(".gallery a",{captionsData:"alt",captionsDelay:250,overlayOpacity:.7});
+  </li>`).join("");e.insertAdjacentHTML("beforeend",n);new i(".gallery a",{captionsData:"alt",captionDelay:250,overlayOpacity:.7});
 //# sourceMappingURL=commonHelpers.js.map
