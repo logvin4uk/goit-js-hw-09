@@ -87,6 +87,6 @@ gallery.insertAdjacentHTML('beforeend', markup);
 
 const modal = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
-  captionsDelay: 250,
+  captionDelay: 250,
   overlayOpacity: 0.7,
 });
